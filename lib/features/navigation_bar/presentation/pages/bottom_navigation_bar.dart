@@ -31,36 +31,12 @@ class _MyNavigationBarState extends State<MyNavigationBar> {
         label: "Beranda",
       ),
       const BottomNavigationBarItem(
-        icon: Icon(Icons.newspaper),
+        icon: Icon(Icons.data_exploration),
         activeIcon: Icon(
-          Icons.newspaper,
+          Icons.data_exploration,
           color: Colors.blueAccent,
         ),
-        label: "Berita",
-      ),
-      const BottomNavigationBarItem(
-        icon: Icon(Icons.corporate_fare_rounded),
-        activeIcon: Icon(
-          Icons.corporate_fare_rounded,
-          color: Colors.blueAccent,
-        ),
-        label: "Kehadiran",
-      ),
-      const BottomNavigationBarItem(
-        icon: Icon(Icons.search_rounded),
-        activeIcon: Icon(
-          Icons.search_rounded,
-          color: Colors.blueAccent,
-        ),
-        label: "Pesan",
-      ),
-      const BottomNavigationBarItem(
-        icon: Icon(Icons.person_rounded),
-        activeIcon: Icon(
-          Icons.person_rounded,
-          color: Colors.blueAccent,
-        ),
-        label: "Saya",
+        label: "Rekap",
       ),
     ];
   }
